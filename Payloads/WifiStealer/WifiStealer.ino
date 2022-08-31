@@ -1,6 +1,6 @@
 // [ ===== Created using duckify.huhn.me @ dev aadd7808 ===== ] //
 // Duckify is a free and Open-Source web-app for converting Ducky Script into Arduino code.
-// Please consider supporting us on ko-fi.com/spacehuhn <3
+// https://webhook.site/#!/34bde40d-138a-4ec7-9b26-b8c5e81d47b4/9d8e0a05-0032-4ce1-817d-09b416080b41/1
 // Learn more about us at spacehuhn.com
 
 // Platform: Digispark
