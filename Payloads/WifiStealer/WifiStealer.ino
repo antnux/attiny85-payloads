@@ -69,6 +69,7 @@ void setup() {
     DigiKeyboard.delay(500); // DELAY 500
     duckyString(key_arr_6, sizeof(key_arr_6)); // STRING exit
     DigiKeyboard.sendKeyStroke(40, 0); // ENTER
+    digitalWrite(1, HIGH); //turn on led when program finishes
 }
 
 void loop() {}
