@@ -1,6 +1,8 @@
 #include "DigiKeyboard.h"
 
 void setup() {
+ pinMode(1, OUTPUT); // Enable LED
+ digitalWrite(1, LOW); // Turn LED off
 }
 
 void loop() {
@@ -24,4 +26,5 @@ void loop() {
  DigiKeyboard.delay(1000);
  DigiKeyboard.sendKeyStroke(KEY_F4|MOD_ALT_LEFT);
  DigiKeyboard.delay(50000);
+ digitalWrite(1, HIGH); //turn on led when program finishes
 }
